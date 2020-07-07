@@ -1,0 +1,5 @@
+/build
+node_modules
+/src/components/InventoryUseCase
+/src/components/pcmp
+package-lock.json

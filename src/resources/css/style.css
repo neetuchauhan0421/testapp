@@ -1,0 +1,61 @@
+/*
+ * Copyright (c) Schrocken Inc.
+ * Author: Ravi Teja
+ * File Description: Global CSSS file
+ */
+
+body {
+  margin: 0px;
+}
+.carousel img {
+  width: 100%;
+  height: 100vh;
+}
+.mui-fixed {
+  padding-right: 0px !important;
+}
+.carousel .control-dots {
+  position: absolute;
+  bottom: 0;
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+.carousel .slide .logo {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 55%;
+  height: 10%;
+}
+.carousel .slide .text-large {
+  position: absolute;
+  top: 21%;
+  left: 10%;
+  color: #ffffff;
+  text-align: left;
+  margin-right: 10%;
+}
+.carousel .slide .text-small {
+  position: absolute;
+  top: 52%;
+  left: 10%;
+  color: #ffffff;
+  text-align: left;
+  margin-right: 5%;
+}
+.carousel .slide .overlay-button {
+  position: absolute;
+  top: 62%;
+  left: 10%;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.carousel .slide .overlay-button:hover {
+  position: absolute;
+  top: 62%;
+  left: 10%;
+  color: #000000;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
